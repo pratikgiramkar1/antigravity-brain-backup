@@ -1,0 +1,17 @@
+# Task: Verify Hero Section UI Improvements
+
+## Checklist
+- [ ] Navigate to http://10.100.13.24:4321/prism
+- [ ] Verify gradient band is narrower
+- [ ] Verify "Trusted by..." text and logos are shifted down (below gradient)
+- [ ] Verify logos are larger and marquee is smooth
+- [ ] Check responsiveness at 1200px width (no overlap)
+- [ ] Check responsiveness at 1000px width (no overlap)
+- [ ] Check responsiveness at 800px width (no overlap)
+- [ ] Capture screenshots for all verification steps
+
+## Findings
+- Gradient: 
+- "Trusted by" position: 
+- Logo size/animation: 
+- Responsiveness: 

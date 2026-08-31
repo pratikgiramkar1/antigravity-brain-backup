@@ -1,0 +1,13 @@
+# Task: Analyze 'Switch processors' section overlap
+
+## Plan
+1. [ ] Navigate to `http://10.100.13.24:4321/prism`.
+2. [ ] Scroll to 'Switch processors' section.
+3. [ ] Get bounding boxes of `.switch-processors-title` and `.switch-processors-video-container`.
+4. [ ] Take a screenshot of the overlap.
+5. [ ] Return dimensions and screenshot path.
+
+## Findings
+- Bounding box (title):
+- Bounding box (video container):
+- Screenshot:

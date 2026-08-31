@@ -1,0 +1,59 @@
+Retrieving project…
+Deploying pratiks-projects-21240a37/rakhi
+Uploading [--------------------] (0.0B/777B)
+Uploading [====================] (777.0B/777B)
+Inspect: https://vercel.com/pratiks-projects-21240a37/rakhi/CUhfcmjPp2eAWB38t8EPvUbBjtNJ [2s]
+Production: https://rakhi-m0xmck3jw-pratiks-projects-21240a37.vercel.app [2s]
+Building...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Downloading 63 deployment files...
+Building: Restored build cache from previous deployment (C5euWfGqfRwBS5H1pLXpBGvQi1h8)
+Building: Running "vercel build"
+Building: Vercel CLI 59.3.0
+Building: Installing dependencies...
+Building: up to date in 551ms
+Building: 10 packages are looking for funding
+Building: run `npm fund` for details
+Building: Running "npm run build"
+Building: > svelte-rakhi@0.0.0 build
+Building: > vite build
+Building: vite v8.2.2 building client environment for production...
+Building: transforming...
+Building: 6:17:08 PM [vite-plugin-svelte] src/components/Gallery.svelte:109:12 Screenreaders already announce `<img>` elements as an image
+Building: https://svelte.dev/e/a11y_img_redundant_alt
+Building: 107:     <div class="layout-block block-finale z-index-3 reveal-up" use:reveal>
+Building: 108:         <div class="image-box finale-mask">
+Building: 109:             <img src="/images/IMG_20260828_195612.jpg" alt="Flexing Photo">
+Building: ^
+Building: 110:         </div>
+Building: 111:         <div class="finale-text">
+Building: ✓ 123 modules transformed.
+Building: rendering chunks...
+Production: https://rakhi-m0xmck3jw-pratiks-projects-21240a37.vercel.app [9s]
+Completing...
+Aliased: https://rakhi-eta-five.vercel.app [9s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_CUhfcmjPp2eAWB38t8EPvUbBjtNJ",
+    "url": "https://rakhi-m0xmck3jw-pratiks-projects-21240a37.vercel.app",
+    "inspectorUrl": "https://vercel.com/pratiks-projects-21240a37/rakhi/CUhfcmjPp2eAWB38t8EPvUbBjtNJ",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_CUhfcmjPp2eAWB38t8EPvUbBjtNJ"
+  },
+  "message": "Deployment rakhi-m0xmck3jw-pratiks-projects-21240a37.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect rakhi-m0xmck3jw-pratiks-projects-21240a37.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

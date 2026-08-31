@@ -1,0 +1,10 @@
+One Library.
+Every Connector on Earth.
+[0] (432,395)<a class='hero-btn hero-btn-primary' href='https://github.com/juspay/hyperswitch-prism' />
+	[1] (424,395)<span >Get Started />
+	[2] (463,395)<img  />
+[3] (568,395)<a class='hero-btn hero-btn-outline' href='/prism/connectors' />
+	[4] (559,395)<span >Connectors />
+	[5] (599,395)<img  />
+Trusted by the fastest growing businesses globally
+[6] (40,980)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />

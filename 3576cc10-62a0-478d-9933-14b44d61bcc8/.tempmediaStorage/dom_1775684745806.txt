@@ -1,0 +1,25 @@
+No API keys. No state.
+Just embed and connect.
+Full validated transformations for Agents and Developers to reuse
+30+
+Unified APIs
+With standardized payment grammar across all payment processors
+100+
+Payment Methods
+Full validated transformations for Agents and Developers to reuse
+How to get started?
+[0] (425,343)<button class='mode-pill mode-pill-active'>Embed as library />
+[1] (558,343)<button class='mode-pill'>Deploy as microservice />
+[2] (367,385)<button class='step-pill step-pill-active'>1. Install and Configure />
+[3] (487,385)<button class='step-pill'>2. First API call />
+[4] (621,385)<button class='step-pill'>3. Change one line to switch />
+[5] (243,422)<button class='lang-chip lang-chip-active' role='tab'>Node.js />
+[6] (304,422)<button class='lang-chip' role='tab'>Python />
+[7] (357,422)<button class='lang-chip' role='tab'>Java />
+[8] (403,422)<button class='lang-chip' role='tab'>PHP />
+npm
+install
+hyperswitch-prism
+Switch processors with
+few lines of code
+[9] (48,992)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />

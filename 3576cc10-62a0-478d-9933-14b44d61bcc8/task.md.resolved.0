@@ -1,0 +1,18 @@
+# Task: Rewrite "How to get started?" Section
+
+- `[ ]` 1. Update data structure `prismIntegrationModes` in `prism.astro`
+  - Add PHP language placeholder
+  - Map steps 1, 2, 3 properly
+- `[ ]` 2. Update HTML structure in `prism.astro`
+  - Container with `getstartedbackground.svg`
+  - Mode toggle pills (Embed as library vs Deploy as microservice)
+  - Secondary Step tabs (1. Install, 2. First API call, 3. Change one line)
+  - Terminal code block container with interior language tabs
+- `[ ]` 3. Rewrite JavaScript Interactivity
+  - state for mode, step, and language
+  - Click handlers for mode buttons, step buttons, language buttons
+  - Update DOM elements to display correct active classes and code
+- `[ ]` 4. Update CSS Styling
+  - Style new components (Mode toggles, Step tabs, Terminal block)
+  - Ensure colors match Figma design
+- `[ ]` 5. Verify interactivity and responsiveness

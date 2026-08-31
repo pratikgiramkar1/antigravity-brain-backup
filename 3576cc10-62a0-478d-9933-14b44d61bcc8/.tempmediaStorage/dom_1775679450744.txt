@@ -1,0 +1,16 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+One Library.
+Every Connector on Earth.
+[0] (432,744)<a class='hero-btn hero-btn-primary' href='https://github.com/juspay/hyperswitch-prism' />
+	[1] (424,744)<span >Get Started />
+	[2] (463,744)<img  />
+[3] (568,744)<a class='hero-btn hero-btn-outline' href='/prism/connectors' />
+	[4] (559,744)<span >Connectors />
+	[5] (599,744)<img  />
+Trusted by the fastest growing businesses globally
+[6] (40,980)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />
+
+</current_dom>

@@ -1,0 +1,26 @@
+# Hero Section Visual Fidelity Fix
+
+Refine the Prism page hero section to match the Figma design by adjusting gradient depth, decreasing the gap between CTAs and brand proofing, and ensuring logos reside on the light background.
+
+## Proposed Changes
+
+### [Prism Page]
+
+#### [MODIFY] [prism.astro](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+- **Hero Overlay**: Reduce `padding-top` to bring CTAs closer to the crystal base.
+- **Brand Proof Band**:
+    - Increase negative `margin-top` to close the gap between buttons and "Trusted by" text.
+    - Reduce section `height` to make the color band narrower.
+    - Update `linear-gradient` to be darker for longer, creating a sharper transition to the light background at the bottom.
+- **Brand Content**:
+    - Adjust `top` positioning in CSS to ensure logos sit below the gradient transition.
+    - Increase logo image dimensions and track gap.
+    - Increase max-width of the content container for a wider brand presence.
+
+## Verification Plan
+
+### Manual Verification
+- View the page at 1440px width and compare the gap and gradient to the provided Figma screenshot.
+- Perform a responsive test (shrink window from 1500px down to 800px) to verify that the "Trusted by" text remains consistently spaced and does not overlap with the Hero buttons.
+- Verify that brand logos are clearly legible on the light background and not obscured by the purple/red gradient.

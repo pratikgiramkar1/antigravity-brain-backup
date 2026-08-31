@@ -1,0 +1,20 @@
+# Task: Analyze spacing between Hero section and Logos section
+
+## Checklist
+- [x] Navigate to http://10.100.13.24:4321/prism
+- [x] Find height of `.prism-hero` and `.brand-proof-band`
+- [x] Determine vertical distance between bottom of `.hero-ctas` and top of `.brand-proof-copy`
+- [ ] Extract CSS properties (margin, padding, height) of these sections
+- [x] Capture screenshot of the area between CTAs and Logos
+
+## Findings
+- Viewport Size: 2560 x 1352
+- `.prism-hero` absolute Y (buttons): 1384px. Est. height: ~1450px.
+- `.brand-proof-band` absolute Y (text): 1901px. Est. height: ~575px.
+- Calculated pixel distance (button center to text center): 517 pixels.
+- Gap (button bottom to text top): ~478 pixels.
+- CSS Properties (Inferred):
+  - `.prism-hero`: Likely has large bottom padding or margin.
+  - `.brand-proof-band`: Likely has large top padding or margin.
+  - `.hero-ctas`: Bottom margin.
+  - `.brand-proof-copy`: Top margin.

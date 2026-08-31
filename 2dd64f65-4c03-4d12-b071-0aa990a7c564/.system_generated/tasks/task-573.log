@@ -1,0 +1,40 @@
+Retrieving project…
+Deploying pratiks-projects-21240a37/rakhi
+Uploading [--------------------] (0.0B/24.2KB)
+Uploading [=========-----------] (11.5KB/24.2KB)
+Uploading [=============-------] (16.4KB/24.2KB)
+Uploading [====================] (24.2KB/24.2KB)
+Inspect: https://vercel.com/pratiks-projects-21240a37/rakhi/Cu8L6v2ffoPMKHCDnyhw7NdCxEf2 [2s]
+Production: https://rakhi-p76u5y85v-pratiks-projects-21240a37.vercel.app [2s]
+Building...
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Downloading 14 deployment files...
+Production: https://rakhi-p76u5y85v-pratiks-projects-21240a37.vercel.app [6s]
+Completing...
+Aliased: https://rakhi-eta-five.vercel.app [6s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_Cu8L6v2ffoPMKHCDnyhw7NdCxEf2",
+    "url": "https://rakhi-p76u5y85v-pratiks-projects-21240a37.vercel.app",
+    "inspectorUrl": "https://vercel.com/pratiks-projects-21240a37/rakhi/Cu8L6v2ffoPMKHCDnyhw7NdCxEf2",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_Cu8L6v2ffoPMKHCDnyhw7NdCxEf2"
+  },
+  "message": "Deployment rakhi-p76u5y85v-pratiks-projects-21240a37.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect rakhi-p76u5y85v-pratiks-projects-21240a37.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

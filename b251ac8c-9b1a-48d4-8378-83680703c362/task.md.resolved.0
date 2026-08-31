@@ -1,0 +1,12 @@
+# Prism Redesign Task Checklist
+
+- `[/]` **1. Brand-proof-band & Marquee Animation**
+  - `[x]` Fix positioning of `brand-proof-content` to stop overlapping hero CTAs
+  - `[x]` Apply CSS filters to turn brand logos dark
+  - `[ ]` Implement basic CSS infinite marquee for logos
+- `[ ]` **2. Stats Section Light Effect**
+- `[ ]` **3. "How to get started?" Section Redesign**
+- `[ ]` **4. "Switch Processors" New Section**
+- `[ ]` **5. FAQ Section Refinement**
+- `[ ]` **6. Custom Footer**
+- `[ ]` **7. Unused SVG Cleanup**

@@ -1,0 +1,5 @@
+{
+  "summary": "A comparative analysis document detailing the architectural similarities between Newton and Vayu, focusing on Process Tracker usage, idempotency, and transaction synchronization.",
+  "updatedAt": "2026-08-25T19:59:06.101953Z",
+  "userFacing": true
+}

@@ -1,0 +1,70 @@
+Just embed and connect.
+30+
+Unified APIs
+With standardized payment grammar across all payment processors
+100+
+Payment Methods
+Full validated transformations for Agents and Developers to reuse
+How to get started?
+[0] (425,312)<button class='mode-pill mode-pill-active'>Embed as library />
+[1] (558,312)<button class='mode-pill'>Deploy as microservice />
+[2] (367,354)<button class='step-pill'>1. Install and Configure />
+[3] (487,354)<button class='step-pill step-pill-active'>2. First API call />
+[4] (621,354)<button class='step-pill'>3. Change one line to switch />
+[5] (299,391)<button class='lang-chip' role='tab'>Node.js />
+[6] (359,391)<button class='lang-chip' role='tab'>Python />
+[7] (412,391)<button class='lang-chip' role='tab'>Java />
+[8] (458,391)<button class='lang-chip lang-chip-active' role='tab'>PHP />
+<?php
+require_once
+'vendor/autoload.php'
+;
+use
+HyperswitchPrism\
+PaymentClient
+;
+// Configure Stripe client
+$stripeConfig = [
+'connectorConfig'
+=> [
+'stripe'
+=> [
+'apiKey'
+=> [
+'value'
+=> $_ENV[
+'STRIPE_API_KEY'
+]]
+        ]
+    ]
+];
+$stripeClient =
+new
+PaymentClient
+($stripeConfig);
+// Configure Adyen client
+$adyenConfig = [
+'connectorConfig'
+=> [
+'adyen'
+=> [
+'apiKey'
+=> [
+'value'
+=> $_ENV[
+'ADYEN_API_KEY'
+]],
+'merchantAccount'
+=> $_ENV[
+'ADYEN_MERCHANT_ACCOUNT'
+]
+        ]
+    ]
+];
+$adyenClient =
+new
+PaymentClient
+($adyenConfig);
+Switch processors with
+few lines of code
+[9] (48,992)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />

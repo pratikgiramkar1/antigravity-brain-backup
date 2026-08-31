@@ -1,0 +1,116 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (225,16)<a class='flex items-center space-x-3 rtl:space-x-reverse z-40' href='/' />
+	[1] (225,16)<img  />
+[2] (882,16)<button aria-label='mobile nav menu' class='w-[40px] h-[40px] rounded-[50%] flex justify-center items-center bg-[#222F42] relative' id='mobile-nav-button' />
+With standardized payment grammar across all payment processors
+100+
+Payment Methods
+Full validated transformations for Agents and Developers to reuse
+How to get started?
+[3] (308,156)<button class='mode-pill mode-pill-active'>Embed as library />
+[4] (646,156)<button class='mode-pill'>Deploy as microservice />
+[5] (500,195)<div aria-label='Integration steps' class='code-step-toggle' role='tablist' scrollable='true' />
+	[6] (208,195)<button class='step-pill'>1. Install and Configure />
+	[7] (511,195)<button class='step-pill step-pill-active'>2. First API call />
+	[8] (849,195)<button class='step-pill'>3. Change one line to switch />
+[9] (148,226)<button class='lang-chip' role='tab'>Node.js />
+[10] (325,226)<button class='lang-chip' role='tab'>Python />
+[11] (479,226)<button class='lang-chip' role='tab'>Java />
+[12] (615,226)<button class='lang-chip lang-chip-active' role='tab'>PHP />
+[13] (500,351)<pre class='code-block-new' scrollable='true'><?php
+require_once
+;
+HyperswitchPrism\
+;
+$stripeConfig = [
+=> [
+=> [
+=> [
+=> $_ENV[
+]]
+        ]
+    ]
+];
+$stripeClient =
+($stripeConfig);
+$adyenConfig = [
+=> [
+=> [
+=> [
+=> $_ENV[
+]],
+=> $_ENV[
+]
+        ]
+    ]
+];
+$adyenClient =
+($adyenConfig); />
+	<?php
+require_once
+	'vendor/autoload.php'
+	;
+	use
+	HyperswitchPrism\
+	PaymentClient
+	;
+	// Configure Stripe client
+	$stripeConfig = [
+	'connectorConfig'
+	=> [
+	'stripe'
+	=> [
+	'apiKey'
+	=> [
+	'value'
+	=> $_ENV[
+	'STRIPE_API_KEY'
+	]]
+        ]
+    ]
+];
+$stripeClient =
+	new
+	PaymentClient
+	($stripeConfig);
+	// Configure Adyen client
+	$adyenConfig = [
+	'connectorConfig'
+	=> [
+	'adyen'
+	=> [
+	'apiKey'
+	=> [
+	'value'
+	=> $_ENV[
+	'ADYEN_API_KEY'
+	]],
+	'merchantAccount'
+	=> $_ENV[
+	'ADYEN_MERCHANT_ACCOUNT'
+	]
+        ]
+    ]
+];
+$adyenClient =
+	new
+	PaymentClient
+	($adyenConfig);
+Switch processors with
+few lines of code
+Frequently Asked
+Questions
+[14] (500,847)<details class='faq-item'>Prism is PCI-Compliant by design. It operates as a stateless library with no data storage, no logging - meaning no PCI data is ever persisted. Prism provides you with the flexibility to outsource your PCI compliance to third-party vaults/ payment processors of your choice, or insource the compliance fully. />
+	[15] (500,810)<summary >How does Prism handle PCI compliance? />
+	Prism is PCI-Compliant by design. It operates as a stateless library with no data storage, no logging - meaning no PCI data is ever persisted. Prism provides you with the flexibility to outsource your PCI compliance to third-party vaults/ payment processors of your choice, or insource the compliance fully.
+[16] (500,916)<details class='faq-item' />
+	[17] (500,916)<summary >Who develops and maintains the Prism library ? />
+[18] (500,951)<details class='faq-item' />
+	[19] (500,951)<summary >How many payment processors and methods does Prism support? />
+How is sensitive data protected when using Prism?
+[20] (139,992)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />
+
+</current_dom>

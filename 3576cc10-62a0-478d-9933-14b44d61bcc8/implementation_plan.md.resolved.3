@@ -1,0 +1,33 @@
+# Add "Switch Processors" Section
+
+Implement a new interactive section in `prism.astro` featuring a lazy-loaded video demonstration of switching payment processors.
+
+## User Review Required
+
+> [!NOTE]
+> I noticed the video was named `prism-switch-processors.mp4.mp4`. I will rename it to `prism-switch-processors.mp4` during implementation.
+
+## Proposed Changes
+
+### Prism Page
+
+#### [MODIFY] [prism.astro](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+- **HTML Structure**: 
+  - Insert `<section class="switch-processors-section">` above the FAQ band.
+  - Add heading: "Switch processors with few lines of code".
+  - Add video container with `<video>` element using `data-src` for lazy loading.
+- **CSS Styling**:
+  - Background: `#212121` with a noise texture overlay.
+  - Visuals: Add 2-3 blurred color bands (cyan/purple) to the background to maintain the "atmospheric" feel.
+  - Video UI: 20px border-radius and subtle glow/border to match the Figma.
+- **JavaScript**:
+  - Add Intersection Observer logic to trigger the video's `src` load and `play()` when it enters the viewport.
+
+## Verification Plan
+
+### Manual Verification
+1. Navigate to [prism page](http://10.100.13.24:4321/prism).
+2. Scroll to the "Switch Processors" section.
+3. Verify the video starts playing only when reached.
+4. Verify the background effects (noise/blur) are visible and smooth.

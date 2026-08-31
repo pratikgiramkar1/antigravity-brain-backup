@@ -1,0 +1,18 @@
+# Task: Analyze spacing between Hero section and Logos section
+
+## Checklist
+- [ ] Navigate to http://10.100.13.24:4321/prism
+- [ ] Find height of `.prism-hero` and `.brand-proof-band`
+- [ ] Determine vertical distance between bottom of `.hero-ctas` and top of `.brand-proof-copy`
+- [ ] Extract CSS properties (margin, padding, height) of these sections
+- [ ] Capture screenshot of the area between CTAs and Logos
+
+## Findings
+- `.prism-hero` height: 
+- `.brand-proof-band` height: 
+- Distance (CTAs bottom to Logos top): 
+- CSS Properties: 
+  - `.prism-hero`: 
+  - `.brand-proof-band`: 
+  - `.hero-ctas`: 
+  - `.brand-proof-copy`: 

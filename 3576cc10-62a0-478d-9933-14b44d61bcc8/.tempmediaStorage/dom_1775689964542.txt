@@ -1,0 +1,81 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (144,16)<a class='flex items-center space-x-3 rtl:space-x-reverse z-40' href='/' />
+	[1] (144,16)<img  />
+[2] (924,16)<button aria-label='mobile nav menu' class='w-[40px] h-[40px] rounded-[50%] flex justify-center items-center bg-[#222F42] relative' id='mobile-nav-button' />
+Hardened Connections
+Full validated transformations for Agents and Developers to reuse
+30+
+Unified APIs
+With standardized payment grammar across all payment processors
+100+
+Payment Methods
+Full validated transformations for Agents and Developers to reuse
+How to get started?
+[3] (377,313)<button class='mode-pill mode-pill-active'>Embed as library />
+[4] (593,313)<button class='mode-pill'>Deploy as microservice />
+[5] (133,353)<button class='step-pill'>1. Install and Configure />
+[6] (327,353)<button class='step-pill step-pill-active'>2. First API call />
+[7] (544,353)<button class='step-pill'>3. Change one line to switch />
+[8] (117,384)<button class='lang-chip' role='tab'>Node.js />
+[9] (231,384)<button class='lang-chip' role='tab'>Python />
+[10] (330,384)<button class='lang-chip' role='tab'>Java />
+[11] (417,384)<button class='lang-chip lang-chip-active' role='tab'>PHP />
+<?php
+require_once
+'vendor/autoload.php'
+;
+use
+HyperswitchPrism\
+PaymentClient
+;
+// Configure Stripe client
+$stripeConfig = [
+'connectorConfig'
+=> [
+'stripe'
+=> [
+'apiKey'
+=> [
+'value'
+=> $_ENV[
+'STRIPE_API_KEY'
+]]
+        ]
+    ]
+];
+$stripeClient =
+new
+PaymentClient
+($stripeConfig);
+// Configure Adyen client
+$adyenConfig = [
+'connectorConfig'
+=> [
+'adyen'
+=> [
+'apiKey'
+=> [
+'value'
+=> $_ENV[
+'ADYEN_API_KEY'
+]],
+'merchantAccount'
+=> $_ENV[
+'ADYEN_MERCHANT_ACCOUNT'
+]
+        ]
+    ]
+];
+$adyenClient =
+new
+PaymentClient
+($adyenConfig);
+Switch processors with
+few lines of code
+Frequently Asked
+[12] (89,992)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />
+
+</current_dom>

@@ -1,0 +1,46 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Switch processors with
+few lines of code
+Frequently Asked Questions
+[0] (500,553)<details class='faq-item'>Prism is PCI-Compliant by design. It operates as a stateless library with no data storage, no logging - meaning no PCI data is ever persisted. Prism provides you with the flexibility to outsource your PCI compliance to third-party vaults/ payment processors of your choice, or insource the compliance fully. />
+	[1] (500,533)<summary >How does Prism handle PCI compliance? />
+	Prism is PCI-Compliant by design. It operates as a stateless library with no data storage, no logging - meaning no PCI data is ever persisted. Prism provides you with the flexibility to outsource your PCI compliance to third-party vaults/ payment processors of your choice, or insource the compliance fully.
+[2] (500,633)<details class='faq-item'>Prism is actively maintained by the Juspay Hyperswitch team with regular updates for new additions, features, security patches, and bug fixes. It is an actively used component on the Juspay hyperswitch platform powering payments for large enterprises. />
+	[3] (500,613)<summary >Who develops and maintains the Prism library ? />
+	Prism is actively maintained by the Juspay Hyperswitch team with regular updates for new additions, features, security patches, and bug fixes. It is an actively used component on the Juspay hyperswitch platform powering payments for large enterprises.
+[4] (500,718)<details class='faq-item'>Prism supports 60+ connectors including Stripe, Adyen, Braintree, PayPal, and Worldpay. It covers 100+ payment method types across multiple categories: Cards (Visa, Mastercard, Amex, etc.), Digital Wallets (Apple Pay, Google Pay, PayPal), Online Banking (iDEAL, Sofort), Bank Transfers (SEPA, ACH), Buy Now Pay Later (Klarna, Affirm), Cryptocurrency, and Regional methods like UPI, PIX and Boleto. />
+	[5] (500,692)<summary >How many payment processors and methods does Prism support? />
+	Prism supports 60+ connectors including Stripe, Adyen, Braintree, PayPal, and Worldpay. It covers 100+ payment method types across multiple categories: Cards (Visa, Mastercard, Amex, etc.), Digital Wallets (Apple Pay, Google Pay, PayPal), Online Banking (iDEAL, Sofort), Bank Transfers (SEPA, ACH), Buy Now Pay Later (Klarna, Affirm), Cryptocurrency, and Regional methods like UPI, PIX and Boleto.
+[6] (500,803)<details class='faq-item'>No data is logged to any server. The library is credential-free, and can be embedded into your app without any risks or compliance involved. Just like an optical prism, it takes an input (beam of light), transforms (refracts) and sends it to the target payment processor endpoint of your choice. />
+	[7] (500,783)<summary >How is sensitive data protected when using Prism? />
+	No data is logged to any server. The library is credential-free, and can be embedded into your app without any risks or compliance involved. Just like an optical prism, it takes an input (beam of light), transforms (refracts) and sends it to the target payment processor endpoint of your choice.
+Solutions
+[8] (296,961)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/intelligent-routing'>Intelligent Routing />
+[9] (296,975)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/vault'>Vault />
+[10] (296,988)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/alternative-payment-method'>Alternative Payment Methods />
+Cost Observability
+Compliances
+[11] (464,961)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/vulnerability-disclosure-policy'>Vulnerability Disclosure />
+[12] (464,975)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/pci.pdf'>PCI DSS 4.0 (US) />
+PCI DSS 4.0 (EU)
+ISO 27001:2022
+Resources
+[13] (603,961)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://juspay.io/customer-stories'>Case Studies />
+[14] (603,975)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://hyperswitch-io.slack.com/ssb/redirect'>Community />
+[15] (603,988)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://docs.hyperswitch.io/ '>Developer Docs />
+Blogs
+About Us
+[16] (722,961)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://juspay.io/about'>About Juspay />
+[17] (722,975)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://juspay.io/careers'>Careers />
+PCI Compliance
+[18] (823,958)<img alt='PCISEAL US' class='w-[48px] h-[48px] object-contain cursor-pointer' id='pci-badge-us' title='PCISEAL US' />
+[19] (865,958)<img alt='PCISEAL EU' class='w-[48px] h-[48px] object-contain cursor-pointer' id='pci-badge-eu' title='PCISEAL EU' />
+Find us on
+[20] (937,941)<div  />
+	[21] (937,941)<img  />
+Consent choices
+
+</current_dom>

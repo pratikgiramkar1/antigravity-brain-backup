@@ -1,0 +1,30 @@
+# Recreate 'Switch processors' Aurora Gradient
+
+The goal is to replace the solid background of the "Switch processors" section with a high-fidelity, vibrant aurora-style gradient that matches the Figma design.
+
+## Proposed Changes
+
+### [Prism Page](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+#### [MODIFY] [prism.astro](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+- Update `.switch-processors-section` background to a deep dark color (e.g., `#161616`).
+- Add a `:before` pseudo-element to `.switch-processors-section` to contain the complex gradient layers.
+- Implement multiple `radial-gradient` layers to simulate the "pinch" point and the spread of colors (Pink, Purple, Blue, Cyan, Green).
+- Add a subtle horizontal "beam" line using a narrow `linear-gradient`.
+- Ensure the gradient is responsive and scales with the section.
+
+## Implementation Details
+
+The gradient will consist of:
+1. **Base**: Deep dark background.
+2. **Left Glow**: A radial gradient (Pink/Purple) anchored on the left.
+3. **Main Beam**: A set of layered radial gradients (Blue -> Cyan -> Green) spread across the center/bottom.
+4. **Pinch Point**: A specific radial gradient with a tight radius to simulate the convergence seen on the left.
+
+## Verification Plan
+
+### Manual Verification
+- View the Prism page at various widths (Mobile, Tablet, Desktop).
+- Compare the visual fidelity of the new CSS-only gradient against the Figma screenshot (Node ID 33-472).
+- Ensure the video container remains legible and centered on top of the gradient.

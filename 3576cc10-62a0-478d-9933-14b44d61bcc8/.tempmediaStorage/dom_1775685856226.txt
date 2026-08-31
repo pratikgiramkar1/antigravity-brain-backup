@@ -1,0 +1,52 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+Frequently Asked
+Questions
+[0] (500,294)<details class='faq-item'>Prism is PCI-Compliant by design. It operates as a stateless library with no data storage, no logging - meaning no PCI data is ever persisted. Prism provides you with the flexibility to outsource your PCI compliance to third-party vaults/ payment processors of your choice, or insource the compliance fully. />
+	[1] (500,257)<summary >How does Prism handle PCI compliance? />
+	Prism is PCI-Compliant by design. It operates as a stateless library with no data storage, no logging - meaning no PCI data is ever persisted. Prism provides you with the flexibility to outsource your PCI compliance to third-party vaults/ payment processors of your choice, or insource the compliance fully.
+[2] (500,403)<details class='faq-item' />
+	[3] (500,403)<summary >Who develops and maintains the Prism library ? />
+[4] (500,474)<details class='faq-item' />
+	[5] (500,474)<summary >How many payment processors and methods does Prism support? />
+[6] (500,545)<details class='faq-item' />
+	[7] (500,545)<summary >How is sensitive data protected when using Prism? />
+Solutions
+[8] (386,795)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/intelligent-routing'>Intelligent Routing />
+[9] (386,820)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/vault'>Vault />
+[10] (386,845)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/alternative-payment-method'>Alternative Payment Methods />
+[11] (386,870)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/observability'>Cost Observability />
+[12] (386,895)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/reconciliation'>Reconciliation />
+[13] (386,919)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/revenue-recovery'>Revenue Recovery />
+Compliances
+[14] (480,795)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/vulnerability-disclosure-policy'>Vulnerability Disclosure />
+[15] (480,820)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/pci.pdf'>PCI DSS 4.0 (US) />
+[16] (480,845)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/pci-eu.pdf'>PCI DSS 4.0 (EU) />
+[17] (480,870)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/uaf.pdf'>ISO 27001:2022 />
+[18] (480,895)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/'>SOC 2 Type 2 />
+Resources
+[19] (558,795)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://juspay.io/customer-stories'>Case Studies />
+[20] (558,820)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://hyperswitch-io.slack.com/ssb/redirect'>Community />
+[21] (558,845)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://docs.hyperswitch.io/ '>Developer Docs />
+[22] (558,870)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='/blog'>Blogs />
+[23] (558,895)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://integrations.hyperswitch.io'>Integrations />
+About Us
+[24] (625,795)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://juspay.io/about'>About Juspay />
+[25] (625,820)<a class='cursor-pointer transition-colors duration-150 ease-in-out hover:text-[#fff] pb-2 lg:pb-4 text-[14px] text-[#777E90]  leading-tight tracking-tight lg:text-nowrap' href='https://juspay.io/careers'>Careers />
+PCI Compliance
+[26] (682,789)<img alt='PCISEAL US' class='w-[48px] h-[48px] object-contain cursor-pointer' id='pci-badge-us' title='PCISEAL US' />
+[27] (705,789)<img alt='PCISEAL EU' class='w-[48px] h-[48px] object-contain cursor-pointer' id='pci-badge-eu' title='PCISEAL EU' />
+Find us on
+[28] (679,881)<a class='w-[32px] h-[32px] flex justify-center items-center rounded-[4px] cursor-pointer' href='https://in.linkedin.com/company/juspay-technologies' />
+	[29] (679,881)<img  />
+[30] (696,881)<a class='w-[32px] h-[32px] flex justify-center items-center rounded-[4px] cursor-pointer' href='https://twitter.com/juspay' />
+	[31] (696,881)<img  />
+[32] (713,881)<a class='w-[32px] h-[32px] flex justify-center items-center rounded-[4px] cursor-pointer' href='https://www.youtube.com/@HyperswitchIO' />
+	[33] (713,881)<img  />
+[34] (746,759)<div  />
+	[35] (746,759)<img  />
+Consent choices
+
+</current_dom>

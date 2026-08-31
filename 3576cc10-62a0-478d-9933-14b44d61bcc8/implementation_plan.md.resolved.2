@@ -1,0 +1,26 @@
+# Reduce Hero Gap
+
+This plan addresses the massive ~500px gap between the "Get Started" buttons and the "Trusted by" logos section. The previous attempt moved the text too high into the crystal visual; this plan focuses on pulling the lower sections UP instead.
+
+## User Review Required
+
+> [!IMPORTANT]
+> This change focuses specifically on the space *below* the buttons. The "One Library..." tagline will remain in its original position to avoid overlapping the crystal.
+
+## Proposed Changes
+
+### Prism Page
+
+#### [MODIFY] [prism.astro](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+- **Hero Height**: Reduce `min-height` of `.prism-hero` slightly to tighten the container around the video.
+- **Trust Band Overlap**: Increase the negative `margin-top` of `.brand-proof-band` (desktop) from `-13vw` to `-18vw`. 
+- **Logo Positioning**: Adjust the `top` position of `.brand-proof-content` from `68%` to `58%` to move the logos higher in the gradient band.
+
+## Verification Plan
+
+### Manual Verification
+1. Open [prism page](http://10.100.13.24:4321/prism).
+2. Verify that the "One Library..." text is NOT overlapping the crystal.
+3. Verify that the gap below the buttons is visibly reduced.
+4. Verify that the logos are still clearly visible and not overlapping the buttons.

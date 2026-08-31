@@ -1,0 +1,8 @@
+# Task: Verify terminal width in "How to get started" section
+
+## Plan
+1. [ ] Navigate to `http://10.100.13.24:4321/prism` (already open in Page E152F9D2F95298CD678CAA406688183A)
+2. [ ] Locate "How to get started" section using DOM/Screenshot
+3. [ ] Scroll to the section
+4. [ ] Take a screenshot and save as artifact
+5. [ ] Verify width matching and report back

@@ -1,0 +1,7 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Replace the Prism PNG with the new 'lightscattering.svg' which includes the beam and scattered light. Update the layout to allow the scattered light to underlap the feature cards on desktop, and clip/transform it on smaller screens (<960px) so it doesn't break the layout when cards flow underneath.",
+  "updatedAt": "2026-04-09T11:00:28.681240Z",
+  "version": "7",
+  "requestFeedback": true
+}

@@ -1,0 +1,40 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+We Use Cookies
+We use cookies to improve your experience, serve personalized content, and analyze traffic. By clicking "Agree & Continue", you agree to our use of cookies. You can manage your preferences in our cookie settings.
+To learn more, check out our
+[0] (632,982)<a href='https://hyperswitch.io/privacy-policy'>Privacy Policy. />
+[1] (901,968)<button aria-label='Your Privacy Choices' class='didomi-components-button didomi-button didomi-learn-more-button didomi-button-standard standard-button' id='didomi-notice-learn-more-button' />
+	[2] (901,968)<span >Your Privacy Choices />
+[3] (960,968)<button aria-label='Agree & Conitnue' class='didomi-components-button didomi-button didomi-dismiss-button didomi-components-button--color didomi-button-highlight highlight-button' id='didomi-notice-agree-button' />
+	[4] (960,968)<span >Agree & Conitnue />
+[5] (269,39)<a class='flex items-center' href='/' />
+	[6] (269,39)<img  />
+[7] (399,39)<div >Solutions />
+	[8] (412,39)<span  />
+[9] (451,39)<div >Resources />
+	[10] (466,39)<span  />
+[11] (505,39)<div >Developers />
+	[12] (521,39)<span  />
+[13] (553,39)<div  />
+	[14] (553,39)<a class='text-[12px] xl:text-[15px] font-normal text-[#fff] hover:text-[#55a5ff]' href='/academy'>Academy />
+[15] (590,39)<div  />
+	[16] (590,39)<a class='text-[12px] xl:text-[15px] font-normal text-[#fff] hover:text-[#55a5ff]' href='/pricing'>Pricing />
+[17] (688,39)<a class='flex items-center gap-[4px] xl:gap-[10px]' href='https://github.com/juspay/hyperswitch/' />
+	[18] (680,39)<div  />
+		[19] (672,39)<div  />
+			[20] (672,39)<img  />
+		[21] (685,39)<div >41k+ />
+	[22] (702,39)<div  />
+		[23] (702,39)<img  />
+[24] (748,39)<a href='/contact-us' />
+	[25] (748,39)<div  />
+		[26] (743,39)<span >Contact Us />
+		[27] (766,39)<img  />
+One Library.
+Every Connector on Earth.
+Consent choices
+
+</current_dom>

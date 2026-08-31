@@ -1,0 +1,14 @@
+- `[x]` **Magento Architecture & Request Flows**
+  - `[x]` Document overall architecture and platform integration
+  - `[x]` Document Cart creation/update flow
+  - `[x]` Document Coupon application
+  - `[x]` Document Order creation flow
+  - `[x]` Document Analytics/Tracker flow
+- `[x]` **Magento Session & Challenges**
+  - `[x]` Deep-dive into `MagentoSession` table and usage
+  - `[x]` Challenge 1: API Failures & Retries (`callAPIWithRetries`)
+  - `[x]` Challenge 2: Race condition (Order finish vs Webhook)
+  - `[x]` Challenge 3: Cart Tampering prevention
+- `[x]` **Interview Preparation**
+  - `[x]` 15+ Director-level interview questions and answers
+  - `[x]` Final mental model summary

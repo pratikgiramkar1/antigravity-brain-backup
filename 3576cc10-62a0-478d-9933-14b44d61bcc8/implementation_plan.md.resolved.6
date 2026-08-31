@@ -1,0 +1,35 @@
+# Realign 'Switch processors' Section & Gradient
+
+The current implementation has the heading above the video and the gradient incorrectly positioned, causing the terminal to "cut" the light beam. This plan realigns the HTML and CSS to match the Figma design.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The heading "Switch processors with few lines of code" will be moved from the top of the section to the bottom, below the video container.
+
+## Proposed Changes
+
+### [Prism Page](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+#### [MODIFY] [prism.astro](file:///Users/pratik.giramkar/orca-docs/src/pages/prism.astro)
+
+- **HTML Structure**:
+    - Relocate `<div class="section-heading">` to sit below `<div class="switch-processors-video-container">`.
+- **CSS Styles**:
+    - **Gradient Positioning**: Adjust the `radial-gradient` centers in the `.switch-processors-section::before` pseudo-element to be lower (e.g., around `y=70%` instead of `45-50%`).
+    - **Section Layout**: Use `flex-direction: column` with appropriate gaps to ensure the Video -> Gradient/Beam -> Title sequence is clean.
+    - **Title Styling**: Update `.switch-processors-title` to be larger and white (matching the bold look on the dark background in Figma).
+    - **Section Overlap**: Ensure the gradient blend at the top doesn't create a seam with the section above, even after shifting the core down.
+
+## Implementation Details
+
+1. **Top-Heavy Gradient**: I will use a larger `linear-gradient` transition at the top to keep the blend seamless with the section above, but cluster the vibrant "pinch" and "beam" effects in the bottom half of the section.
+2. **Horizontal Beam**: The core "beam" (horizontal white/bright line) will be anchored roughly at the vertical transition between the video container's bottom and the title's top.
+
+## Verification Plan
+
+### Manual Verification
+- View the Prism page at desktop width.
+- Verify that the terminal window now sits *above* the light beam.
+- Verify that the title "Switch processors with... code" is at the bottom, sitting on the dark part of the aurora.
+- Check responsiveness to ensure the beam doesn't collide with text on mobile.

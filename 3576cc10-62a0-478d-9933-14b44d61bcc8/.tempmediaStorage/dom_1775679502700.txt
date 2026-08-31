@@ -1,0 +1,38 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+[0] (118,65)<a class='flex items-center' href='/' />
+	[1] (118,65)<img  />
+[2] (321,65)<div >Solutions />
+	[3] (344,65)<span  />
+[4] (412,65)<div >Resources />
+	[5] (439,65)<span  />
+[6] (509,65)<div >Developers />
+	[7] (537,65)<span  />
+[8] (593,65)<div  />
+	[9] (593,65)<a class='text-[12px] xl:text-[15px] font-normal text-[#fff] hover:text-[#55a5ff]' href='/academy'>Academy />
+[10] (660,65)<div  />
+	[11] (660,65)<a class='text-[12px] xl:text-[15px] font-normal text-[#fff] hover:text-[#55a5ff]' href='/pricing'>Pricing />
+[12] (806,65)<a class='flex items-center gap-[4px] xl:gap-[10px]' href='https://github.com/juspay/hyperswitch/' />
+	[13] (792,65)<div  />
+		[14] (778,65)<div  />
+			[15] (778,65)<img  />
+		[16] (802,65)<div >41k+ />
+	[17] (831,65)<div  />
+		[18] (831,65)<img  />
+[19] (912,65)<a href='/contact-us' />
+	[20] (912,65)<div  />
+		[21] (904,65)<span >Contact Us />
+		[22] (946,65)<img  />
+One Library.
+Every Connector on Earth.
+[23] (422,917)<a class='hero-btn hero-btn-primary' href='https://github.com/juspay/hyperswitch-prism' />
+	[24] (411,917)<span >Get Started />
+	[25] (458,917)<img  />
+[26] (578,917)<a class='hero-btn hero-btn-outline' href='/prism/connectors' />
+	[27] (568,917)<span >Connectors />
+	[28] (614,917)<img  />
+[29] (48,975)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />
+
+</current_dom>

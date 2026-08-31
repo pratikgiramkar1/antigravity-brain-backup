@@ -1,0 +1,17 @@
+# Hero Section Overlap Investigation
+
+## Tasks
+- [x] Resize browser to 847x996
+- [x] Navigate to http://10.100.13.24:4321/prism
+- [x] Inspect Hero section for overlap
+    - [x] Tagline ("One Library...") vs Crystal video - NO OVERLAP observed with crystal video above.
+    - [x] Tagline ("One Library...") vs Trust band text - **OVERLAP OBSERVED**.
+    - [x] CTAs ("Get Started" buttons) vs Logobar - **OVERLAP OBSERVED**.
+- [x] Take screenshot of the overlap
+- [ ] Identify problematic CSS property
+- [ ] Summarize findings
+
+## Findings
+- At 847x996, the Hero section tagline "One Library. Every Connector on Earth." is overlapping with "Trusted by the fastest growing businesses globally".
+- The CTA buttons "Get Started" and "Connectors" are overlapping with the logos in the trust band.
+- The issue seems to be caused by an aggressive negative margin on the trust band section or a fixed/insufficient height on the Hero section when the viewport height is small.

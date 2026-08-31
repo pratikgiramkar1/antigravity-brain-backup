@@ -1,0 +1,5 @@
+{
+  "summary": "Comprehensive, code-verified deep-dive of the Supermoney Order Reconciliation pipeline. Covers architecture, authentication (OAuth 2.0 with encrypted Redis caching), Master-Worker pattern, crash recovery with Redis tracking lists, retry logic (max 2 attempts), three distinct failure alert types, and Director-level interview preparation. Every claim is verified against source code.",
+  "updatedAt": "2026-08-23T18:55:58.014654Z",
+  "userFacing": true
+}

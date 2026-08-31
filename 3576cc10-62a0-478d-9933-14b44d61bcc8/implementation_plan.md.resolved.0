@@ -1,0 +1,40 @@
+# Prism Page Redesign Completion Plan
+
+The goal is to complete the Prism page (`/prism`) redesign based on the Figma reference and the feasibility document. 
+
+## Proposed Changes
+
+### 1. Transparent Navigation Bar
+Currently, the navbar on `prism.astro` is set to `bg-[#161616]`. We'll update the `HomeLayout` props in `prism.astro` to make the navbar transparent and blend cleanly with the hero video. We will change:
+- `customNavBG` to `bg-transparent`
+- `customNavMainBG` to `bg-transparent`
+
+### 2. Chromatic Aberration Effect
+We will add a reusable CSS utility for the chromatic aberration glitch effect and apply it to the main hero tagline (`"One Library. Every Connector on Earth."`) and optionally the brand proof heading.
+- Create `.glitch-text` class with multi-layered text shadows with slight offsets in cyan, magenta, and yellow/red to match the new Figma aesthetic.
+
+### 3. "Switch Processors" Section (NEW)
+We will implement the missing "Switch Processors" section according to the Figma direction.
+- **Layout**: Center-aligned heading and subheading, followed by a product visual/placeholder.
+- **Background Details**: Dark gray/black background with a combination of `feTurbulence` noise mask and large blurred color blobs (radial-gradients) to give it a modern dark-mode aesthetic.
+
+### 4. Code Integration / Stats Tweaks
+- Ensure the Stats section uses the new typography scaling and structure.
+- Review spacing to ensure it gracefully handles the missing `prismCrystal` if it falls back.
+
+### 5. Clean up unused assets
+We will remove large unneeded assets:
+- `src/assets/Prism/prism-hero-bg.svg` (58 KB)
+- `src/assets/Prism/prism-hero-visual.svg` (1.1 MB)
+
+## User Review Required
+> [!IMPORTANT]
+> The 'Switch processors' section requires a product screenshot according to the design. Since I don't have the final screenshot, I'll build a stylised placeholder box in its place for now. Is that acceptable?
+
+> [!NOTE]
+> Please confirm if I can proceed with deleting the unused SVG hero assets.
+
+## Verification
+- Load `/prism` in the browser to ensure the chromatic aberration effect is visible.
+- Verify the "Switch processors" section exists and handles responsiveness properly.
+- Verify that the NavBar is cleanly transparent on top of the hero video.

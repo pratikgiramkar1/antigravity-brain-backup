@@ -1,0 +1,38 @@
+# "How to get started?" Section Rewrite Plan
+
+Based on the provided Figma design, we need to completely overhaul the "How to get started" section. The new design shifts from a vertical step layout to a fully interactive, tabbed experience across three dimensions: Mode, Step, and Language.
+
+## Proposed Changes
+
+### 1. Update Data Structure
+We will update the `prismIntegrationModes` object in `prism.astro` to reflect the new structure:
+- **Languages**: Node.js, Python, Java, PHP (as shown in Figma). We will retain the existing code examples for Node, Python, and Java, and add a placeholder for PHP.
+- **Steps Content**: We will map our existing data to the new steps:
+  - Step 1: "Install and Configure" (maps to existing `installCode`)
+  - Step 2: "First API call" (maps to existing `exampleCode`)
+  - Step 3: "Change one line to switch" (will insert a placeholder snippet for now)
+
+### 2. Rewrite HTML Structure
+- **Container**: Apply a full-width container for the section to house the new background.
+- **Primary Toggle**: "Embed as library" & "Deploy as microservice". Styled as white pills on active, dark pills on inactive.
+- **Secondary Toggle (Steps)**: A horizontal bar with "1. Install and Configure", "2. First API call", and "3. Change one line to switch". Styled with the light-blue pill design for active state.
+- **Terminal Window**:
+  - Inner language tabs (Node.js, Python, Java, PHP).
+  - Clean, dark grey terminal background without the current complex gradient borders.
+  - Single code block that dynamically updates.
+
+### 3. Update JavaScript Interactivity
+We will rewrite the inline script that handles this section:
+- Track three pieces of state: `currentMode`, `currentStep`, `currentLanguage`.
+- When a user clicks a Mode, Step, or Language, we will update the active classes and swap out the code snippet in the terminal window to match the exact combination.
+
+### 4. Styling (CSS)
+- Add exact colors and typography references from the screenshot.
+- Recreate the pill navigations, the terminal window border-radius, and inner spacing.
+
+## Open Questions & Requests
+> [!IMPORTANT]
+> **Background Gradient:** The blue/green "aurora" background in the Figma is stunning. While I can make a CSS approximation using `radial-gradient`, an exported image (e.g., `.webp` or `.jpg`) from Figma will give the most authentic and performant result. **Could you please export this background image and place it in `src/assets/Prism/`?** If not, I will proceed with a CSS replication.
+
+> [!NOTE]
+> For now, I will use placeholder code for "Step 3: Change one line to switch" and for the "PHP" language tab, since we don't have that content yet. Does that sound good?

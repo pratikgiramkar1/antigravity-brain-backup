@@ -1,0 +1,13 @@
+# Verification of Hero Section Layout at 847x996
+
+## Task Checklist
+- [x] Resize browser to 847x996
+- [x] Navigate to http://10.100.13.24:4321/prism
+- [x] Inspect Hero section for overlaps
+- [x] Take screenshot
+- [ ] Analyze findings and report
+
+## Findings
+- **Overlap detected**: At 847x996, the "Get Started" and "Connectors" buttons overlap the "Trusted by..." section.
+- **Tagline position**: The tagline ("One Library...") is clear of the crystal, appearing below it as intended.
+- **Gap analysis**: The gap is indeed smaller, but the negative margin or reduced min-height is causing overlap on smaller/shorter viewports.

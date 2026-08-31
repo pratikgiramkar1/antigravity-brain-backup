@@ -1,0 +1,11 @@
+# Hero Section Overlap Investigation
+
+## Tasks
+- [ ] Resize browser to 847x996
+- [ ] Navigate to http://10.100.13.24:4321/prism
+- [ ] Inspect Hero section for overlap
+    - [ ] Tagline ("One Library...") vs Crystal video
+    - [ ] CTAs ("Get Started" buttons) vs Logobar
+- [ ] Take screenshot of the overlap
+- [ ] Identify problematic CSS property
+- [ ] Summarize findings

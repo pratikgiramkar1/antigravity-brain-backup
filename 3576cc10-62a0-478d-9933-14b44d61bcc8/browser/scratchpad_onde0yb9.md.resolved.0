@@ -1,0 +1,7 @@
+# Task: Verify Aurora Gradient on Prism Page
+
+- [ ] Open `http://10.100.13.24:4321/prism`
+- [ ] Locate 'Switch processors' section
+- [ ] Scroll to the section
+- [ ] Take a screenshot and save it
+- [ ] Provide the screenshot path to the user

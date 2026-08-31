@@ -1,0 +1,5 @@
+- `[/]` Create `.gitignore` to exclude large/temp files
+- `[ ]` Initialize Git repository
+- `[ ]` Create private GitHub repository (`antigravity-brain-backup`)
+- `[ ]` Commit and push all valid brain contents
+- `[ ]` Verify success

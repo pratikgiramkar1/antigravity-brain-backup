@@ -1,0 +1,5 @@
+# Verification Checklist
+- [ ] Resize to 1440px and check gap, overlap, and tagline.
+- [ ] Resize to 847px and check gap, overlap, and tagline.
+- [ ] Identify if tagline overlaps crystal.
+- [ ] Return summary of findings.

@@ -1,0 +1,91 @@
+
+> svelte-rakhi@0.0.0 dev
+> vite
+
+11:46:42 PM [vite] (client) Forced re-optimization of dependencies
+
+  VITE v8.2.2  ready in 526 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+11:47:19 PM [vite-plugin-svelte] src/components/Gallery.svelte:109:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+11:52:27 PM [vite] (client) hmr update /src/components/Overlay.svelte, /src/components/Overlay.svelte?svelte&type=style&lang.css
+11:52:55 PM [vite] (client) hmr update /src/components/Hero.svelte, /src/components/Hero.svelte?svelte&type=style&lang.css
+11:53:16 PM [vite] (client) hmr update /src/components/Hero.svelte?svelte&type=style&lang.css
+11:56:41 PM [vite-plugin-svelte] src/components/Gallery.svelte:109:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+11:56:41 PM [vite] (client) hmr update /src/components/Gallery.svelte
+11:56:54 PM [vite-plugin-svelte] src/components/Gallery.svelte:109:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+11:57:01 PM [vite] (client) hmr update /src/components/Hero.svelte
+12:00:01 AM [vite-plugin-svelte] src/components/Gallery.svelte:109:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:00:01 AM [vite] (client) hmr update /src/components/Gallery.svelte
+12:00:01 AM [vite-plugin-svelte] src/components/Gallery.svelte:109:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:00:13 AM [vite] (client) hmr update /src/app.css
+12:00:13 AM [vite] (client) hmr update /src/app.css
+12:02:18 AM [vite] (client) hmr update /src/app.css
+12:04:49 AM [vite] (client) hmr update /src/components/Hero.svelte?svelte&type=style&lang.css
+12:10:18 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:10:18 AM [vite] (client) hmr update /src/components/Gallery.svelte
+12:10:18 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:10:32 AM [vite] (client) hmr update /src/app.css
+12:14:06 AM [vite] (client) hmr update /src/App.svelte
+12:18:46 AM [vite] (client) hmr update /src/app.css
+12:21:18 AM [vite] (client) hmr update /src/app.css
+12:21:41 AM [vite] (client) hmr update /src/App.svelte, /src/App.svelte?svelte&type=style&lang.css
+12:23:57 AM [vite] (client) hmr update /src/app.css
+12:24:25 AM [vite] (client) hmr update /src/app.css
+12:25:57 AM [vite] (client) hmr update /src/components/Hero.svelte?svelte&type=style&lang.css
+12:27:18 AM [vite] (client) hmr update /src/app.css
+12:28:23 AM [vite] (client) hmr update /src/components/Overlay.svelte
+12:30:40 AM [vite] (client) hmr update /src/app.css
+12:32:35 AM [vite-plugin-svelte] src/components/MusicPlayer.svelte:126:4 Unused CSS selector ".music-btn .slash"
+https://svelte.dev/e/css_unused_selector
+12:32:35 AM [vite-plugin-svelte] src/components/MusicPlayer.svelte:130:4 Unused CSS selector ".music-btn.paused .slash"
+https://svelte.dev/e/css_unused_selector
+12:32:35 AM [vite] (client) hmr update /src/components/MusicPlayer.svelte, /src/components/MusicPlayer.svelte?svelte&type=style&lang.css
+12:32:35 AM [vite-plugin-svelte] src/components/MusicPlayer.svelte:126:4 Unused CSS selector ".music-btn .slash"
+https://svelte.dev/e/css_unused_selector
+12:32:35 AM [vite-plugin-svelte] src/components/MusicPlayer.svelte:130:4 Unused CSS selector ".music-btn.paused .slash"
+https://svelte.dev/e/css_unused_selector
+12:32:55 AM [vite] (client) hmr update /src/components/MusicPlayer.svelte?svelte&type=style&lang.css
+12:33:55 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:33:55 AM [vite] (client) hmr update /src/components/Gallery.svelte
+12:33:55 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:34:52 AM [vite] (client) hmr update /src/app.css
+12:35:54 AM [vite] (client) hmr update /src/app.css
+12:36:08 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:36:08 AM [vite] (client) hmr update /src/components/Gallery.svelte
+12:36:08 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:37:52 AM [vite] (client) hmr update /src/app.css
+12:39:37 AM [vite] (client) hmr update /src/app.css
+12:41:44 AM [vite] (client) hmr update /src/app.css
+12:42:17 AM [vite] (client) hmr update /src/components/MusicPlayer.svelte?svelte&type=style&lang.css
+12:43:41 AM [vite] (client) hmr update /src/app.css
+12:45:08 AM [vite] (client) hmr update /src/app.css
+12:46:43 AM [vite] (client) hmr update /src/app.css
+12:46:44 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:46:44 AM [vite] (client) hmr update /src/components/Gallery.svelte
+12:46:44 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+12:47:44 AM [vite] (client) hmr update /src/app.css
+12:47:44 AM [vite] (client) hmr update /src/components/MusicPlayer.svelte?svelte&type=style&lang.css
+12:48:45 AM [vite] (client) hmr update /src/app.css
+12:50:36 AM [vite] (client) hmr update /src/app.css
+12:51:22 AM [vite] (client) page reload index.html
+1:01:31 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+1:01:31 AM [vite] (client) hmr update /src/components/Gallery.svelte
+1:01:31 AM [vite-plugin-svelte] src/components/Gallery.svelte:110:12 Screenreaders already announce `<img>` elements as an image
+https://svelte.dev/e/a11y_img_redundant_alt
+1:03:18 AM [vite] (client) hmr update /src/app.css

@@ -1,0 +1,3 @@
+◇ injected env (0) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+Server is running on port 3000

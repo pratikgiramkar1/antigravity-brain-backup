@@ -1,0 +1,35 @@
+Retrieving project…
+Deploying pratiks-projects-21240a37/rakhi
+Uploading [--------------------] (0.0B/25.3KB)
+Uploading [=========-----------] (12.5KB/25.3KB)
+Uploading [=============-------] (17.5KB/25.3KB)
+Uploading [====================] (25.3KB/25.3KB)
+Inspect: https://vercel.com/pratiks-projects-21240a37/rakhi/34n8fJ1i2K8j9bEBf7zM2UFp2FYs [2s]
+Production: https://rakhi-mmrlzhak0-pratiks-projects-21240a37.vercel.app [2s]
+Building...
+Building...
+Production: https://rakhi-mmrlzhak0-pratiks-projects-21240a37.vercel.app [6s]
+Completing...
+Aliased: https://rakhi-eta-five.vercel.app [6s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_34n8fJ1i2K8j9bEBf7zM2UFp2FYs",
+    "url": "https://rakhi-mmrlzhak0-pratiks-projects-21240a37.vercel.app",
+    "inspectorUrl": "https://vercel.com/pratiks-projects-21240a37/rakhi/34n8fJ1i2K8j9bEBf7zM2UFp2FYs",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_34n8fJ1i2K8j9bEBf7zM2UFp2FYs"
+  },
+  "message": "Deployment rakhi-mmrlzhak0-pratiks-projects-21240a37.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect rakhi-mmrlzhak0-pratiks-projects-21240a37.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

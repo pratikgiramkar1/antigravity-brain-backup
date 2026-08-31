@@ -1,0 +1,15 @@
+[0] (197,48)<a class='flex items-center space-x-3 rtl:space-x-reverse z-40' href='/' />
+	[1] (197,48)<img  />
+[2] (932,48)<button aria-label='mobile nav menu' class='w-[40px] h-[40px] rounded-[50%] flex justify-center items-center bg-[#222F42] relative' id='mobile-nav-button' />
+One Library.
+Every Connector on Earth.
+[3] (391,581)<a class='hero-btn hero-btn-primary' href='https://github.com/juspay/hyperswitch-prism' />
+	[4] (374,581)<span >Get Started />
+	[5] (444,581)<img  />
+[6] (609,581)<a class='hero-btn hero-btn-outline' href='/prism/connectors' />
+	[7] (591,581)<span >Connectors />
+	[8] (662,581)<img  />
+Trusted by the fastest growing businesses globally
+No API keys. No state.
+Just embed and connect.
+[9] (81,978)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />

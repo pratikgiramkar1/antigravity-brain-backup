@@ -1,0 +1,18 @@
+[0] (221,53)<a class='flex items-center space-x-3 rtl:space-x-reverse z-40' href='/' />
+	[1] (221,53)<img  />
+[2] (884,53)<button aria-label='mobile nav menu' class='w-[40px] h-[40px] rounded-[50%] flex justify-center items-center bg-[#222F42] relative' id='mobile-nav-button' />
+How to get started?
+[3] (311,224)<button class='mode-pill mode-pill-active'>Embed as library />
+[4] (643,224)<button class='mode-pill'>Deploy as microservice />
+[5] (500,354)<div aria-label='Integration steps' class='code-step-toggle' role='tablist' scrollable='true' />
+	[6] (204,354)<button class='step-pill step-pill-active'>1. Install and Configure />
+	[7] (502,354)<button class='step-pill'>2. First API call />
+	[8] (834,354)<button class='step-pill'>3. Change one line to switch />
+[9] (145,455)<button class='lang-chip lang-chip-active' role='tab'>Node.js />
+[10] (319,455)<button class='lang-chip' role='tab'>Python />
+[11] (471,455)<button class='lang-chip' role='tab'>Java />
+[12] (604,455)<button class='lang-chip' role='tab'>PHP />
+npm
+install
+@juspay-tech/hyperswitch-prism
+[13] (137,974)<a class='fixed bottom-0 left-0 p-2 text-white rounded-md z-40' href='javascript:Didomi.preferences.show()'>Consent choices />

@@ -1,0 +1,22 @@
+No API keys. No state.
+Just embed and connect.
+60+
+Hardened Connections
+Full validated transformations for Agents and Developers to reuse
+30+
+Unified APIs
+With standardized payment grammar across all payment processors
+100+
+Payment Methods
+Full validated transformations for Agents and Developers to reuse
+How to get started?
+[0] (410,820)<button class='mode-pill mode-pill-active'>Embed as library />
+[1] (570,820)<button class='mode-pill'>Deploy as microservice />
+1. Install and Configure
+2. First API call
+3. Change one line to switch
+Node.js
+Python
+Java
+PHP
+Consent choices

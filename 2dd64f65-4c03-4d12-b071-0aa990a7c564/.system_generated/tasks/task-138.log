@@ -1,0 +1,60 @@
+Loading scopes…
+Searching for existing projects…
+> No framework detected. Default Project Settings:
+
+- Build Command: `npm run vercel-build` or `npm run build`
+- Development Command: None
+- Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+- Output Directory: `public` if it exists, or `.`
+Linked to pratiks-projects-21240a37/rakhi (created .vercel and added it to .gitignore)
+Deploying pratiks-projects-21240a37/rakhi
+Uploading [--------------------] (0.0B/11.5MB)
+Uploading [=====---------------] (2.9MB/11.5MB)
+Uploading [==========----------] (5.7MB/11.5MB)
+Uploading [===============-----] (8.6MB/11.5MB)
+Uploading [====================] (11.5MB/11.5MB)
+Inspect: https://vercel.com/pratiks-projects-21240a37/rakhi/7agBpjYsyJ4AhuPmCkaxEQ5VeRxW [7s]
+Production: https://rakhi-kjqan7b2j-pratiks-projects-21240a37.vercel.app [7s]
+Building...
+Building: Running build in Washington, D.C., USA (East) – iad1
+Building: Build machine configuration: 2 cores, 8 GB
+Building: Retrieving list of deployment files...
+Building: Previous build caches not available.
+Building: Previous build caches not available.
+Building: Downloading 9 deployment files...
+Building: Running "vercel build"
+Building: Vercel CLI 59.3.0
+Building: Build Completed in /vercel/output [50ms]
+Building: Deploying outputs...
+Production: https://rakhi-kjqan7b2j-pratiks-projects-21240a37.vercel.app [10s]
+Completing...
+Aliased: https://rakhi-eta-five.vercel.app [10s]
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_7agBpjYsyJ4AhuPmCkaxEQ5VeRxW",
+    "url": "https://rakhi-kjqan7b2j-pratiks-projects-21240a37.vercel.app",
+    "inspectorUrl": "https://vercel.com/pratiks-projects-21240a37/rakhi/7agBpjYsyJ4AhuPmCkaxEQ5VeRxW",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_7agBpjYsyJ4AhuPmCkaxEQ5VeRxW"
+  },
+  "message": "Deployment rakhi-kjqan7b2j-pratiks-projects-21240a37.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel inspect rakhi-kjqan7b2j-pratiks-projects-21240a37.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                     Update available! v50.44.0 ≫ v59.1.4                     │
+│   Changelog: https://github.com/vercel/vercel/releases/tag/vercel%4059.1.4   │
+│                   Run `npm i -g vercel@latest` to update.                    │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯

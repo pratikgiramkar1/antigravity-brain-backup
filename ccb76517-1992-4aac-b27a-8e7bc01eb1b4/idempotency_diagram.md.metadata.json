@@ -1,0 +1,5 @@
+{
+  "summary": "Updated the idempotency artifact with detailed technical nuances regarding safe Redis unlocking, UUID lock values, and the Lua Script atomicity pattern (Redlock).",
+  "updatedAt": "2026-08-26T15:47:40.597992Z",
+  "userFacing": true
+}

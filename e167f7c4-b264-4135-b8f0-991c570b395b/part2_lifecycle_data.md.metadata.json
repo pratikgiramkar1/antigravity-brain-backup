@@ -1,0 +1,5 @@
+{
+  "summary": "Part 2 of 5: End-to-end request lifecycle traces through Cart Create, Payment, and Order flows, plus complete data layer analysis covering PostgreSQL schema, Redis usage patterns, and the Beam ORM — all with specific file references for SDE2 interview preparation.",
+  "updatedAt": "2026-08-22T07:42:35.793842Z",
+  "userFacing": true
+}

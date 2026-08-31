@@ -1,0 +1,21 @@
+<current_dom_explanation>
+This is a temporary snapshot of the current page's DOM structure. The DOM will change if you navigate to or interact with another page. Use a tool like browser_get_dom to capture and preserve the DOM in your trajectory if needed for later reference.
+</current_dom_explanation>
+<current_dom>
+How to get started?
+[0] (458,222)<button class='mode-pill mode-pill-active'>Embed as library />
+[1] (533,222)<button class='mode-pill'>Deploy as microservice />
+[2] (425,299)<button class='step-pill step-pill-active'>1. Install and Configure />
+[3] (493,299)<button class='step-pill'>2. First API call />
+[4] (568,299)<button class='step-pill'>3. Change one line to switch />
+[5] (356,367)<button class='lang-chip lang-chip-active' role='tab'>Node.js />
+[6] (390,367)<button class='lang-chip' role='tab'>Python />
+[7] (419,367)<button class='lang-chip' role='tab'>Java />
+[8] (445,367)<button class='lang-chip' role='tab'>PHP />
+npm
+install
+@juspay-tech/hyperswitch-prism
+Switch processors with few lines of code
+Consent choices
+
+</current_dom>

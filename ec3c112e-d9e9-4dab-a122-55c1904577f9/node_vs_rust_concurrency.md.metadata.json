@@ -1,0 +1,5 @@
+{
+  "summary": "A comprehensive guide comparing the concurrency models, I/O handling, and CPU performance of Node.js versus Rust (and other multi-threaded languages).",
+  "updatedAt": "2026-08-29T19:28:23.512803Z",
+  "userFacing": true
+}
